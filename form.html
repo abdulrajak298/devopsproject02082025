@@ -1,35 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome Page</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin-top: 50px;
-        }
-        .button {
-            background-color: blue;
-            color: white;
-            padding: 10px 20px;
-            font-size: 16px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-        .button:hover {
-            background-color: darkblue;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <title>Abdul Rajak - DevOps Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 30px 0;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 36px;
+    }
+
+    header p {
+      font-size: 18px;
+      margin-top: 8px;
+    }
+
+    nav {
+      background-color: #34495e;
+      overflow: hidden;
+    }
+
+    nav a {
+      float: left;
+      display: block;
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      background-color: #1abc9c;
+    }
+
+    .section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #2c3e50;
+      border-bottom: 2px solid #1abc9c;
+      padding-bottom: 10px;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    li {
+      background: #ecf0f1;
+      margin: 10px 0;
+      padding: 12px;
+      border-left: 5px solid #1abc9c;
+      border-radius: 4px;
+    }
+
+    .project {
+      margin-bottom: 20px;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #2c3e50;
+      color: white;
+      padding: 20px 0;
+      margin-top: 40px;
+    }
+
+    a {
+      color: #1abc9c;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
 
-    <h1>DevOps Project Training on Kubernetes</h1>
+  <header>
+    <h1>Abdul Rajak</h1>
+    <p>DevOps Engineer | CI/CD | Cloud & Automation</p>
+  </header>
 
-    <button class="button" onclick="alert('Hello!')">Hello</button>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="home" class="section">
+    <h2>Welcome</h2>
+    <p>Hello! I'm Abdul Rajak, a DevOps Engineer passionate about automating infrastructure, deploying scalable systems, and implementing CI/CD pipelines. Explore my portfolio to learn more.</p>
+  </section>
+
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>I specialize in DevOps practices including CI/CD implementation, container orchestration with Kubernetes, and cloud infrastructure (AWS, Azure). With hands-on experience in tools like Docker, Jenkins, Terraform, and Ansible, I bridge the gap between development and operations to deliver high-performing software systems.</p>
+  </section>
+
+  <section id="skills" class="section">
+    <h2>DevOps Skills</h2>
+    <ul>
+      <li>CI/CD: Jenkins, GitHub Actions, GitLab CI</li>
+      <li>Containers: Docker, Kubernetes, Helm</li>
+      <li>Cloud: AWS, Azure, GCP</li>
+      <li>Infrastructure as Code: Terraform, Ansible</li>
+      <li>Monitoring: Prometheus, Grafana, ELK Stack</li>
+      <li>Scripting: Bash, Python</li>
+      <li>Version Control: Git, GitHub, GitLab</li>
+    </ul>
+  </section>
+
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>CI/CD Pipeline with Jenkins</h3>
+      <p>Designed and deployed a full Jenkins CI/CD pipeline integrated with GitHub, Docker, and Kubernetes for automated testing and deployment.</p>
+    </div>
+    <div class="project">
+      <h3>Infrastructure Automation using Terraform</h3>
+      <p>Provisioned and managed AWS infrastructure (EC2, S3, VPC, RDS) using Terraform with modular configuration for reusability.</p>
+    </div>
+    <div class="project">
+      <h3>Monitoring with Prometheus & Grafana</h3>
+      <p>Set up centralized monitoring and alerting system for microservices architecture using Prometheus and Grafana dashboards.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:abdulrajak@example.com">abdulrajak@example.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/abdulrajak" target="_blank">linkedin.com/in/abdulrajak</a></p>
+    <p>GitHub: <a href="https://github.com/abdulrajak" target="_blank">github.com/abdulrajak</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Abdul Rajak - DevOps Portfolio</p>
+  </footer>
 
 </body>
 </html>
-
